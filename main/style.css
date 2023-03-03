@@ -480,6 +480,7 @@ a:link, a:visited, a:active {
 }
 .politic a {
   color: blue;
+  margin-left: 10px;
 }
 
 .social {
@@ -496,4 +497,12 @@ a:link, a:visited, a:active {
   display: flex;
   font-size: 12px;
   margin: auto;
+}
+
+.downloadslak {
+  display: flex;
+}
+
+.globo {
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
