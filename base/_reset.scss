@@ -3,15 +3,31 @@
     margin:0;
     
 }
+
+header{
+    overflow: hidden;
+   background-color:#611f69;
+   
+}
+
+main{
+    overflow: hidden;
+}
+footer{
+    overflow: hidden;
+}
+
+
 a:link, a:visited, a:active {
     text-decoration:none;
     color:black;
 }
 .tittle{
-   
+    
 
     h1{
         color:white;
+        
     }
     p{
         color:white;
