@@ -1,0 +1,94 @@
+header{
+    overflow: hidden;
+   background-color:#611f69;
+   
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:black;
+}
+
+.navbar{
+    display: flex;
+    height: 10px;
+    justify-content: space-between;
+    width:100%;
+}
+
+.logoslack{
+    display:flex;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+
+
+.menulog{
+    display:flex;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.tittle{
+    display:flex;
+    flex-direction: column;
+   color: white;
+   margin-top: 60px;
+   margin-left: 50px;
+   
+    h1{
+        color:white;
+    }
+    p{
+        color:white;
+    }
+    .text_color{
+        color:#f4b116;
+    }
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background: #ffffff;
+    padding: 10px;
+    text-align:center;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 50px;
+    a{
+        color: #611f69;
+    }
+  }
+
+  .Gmail {
+    align-items: center;
+    display: flex;
+    height: 41px;
+    background: #4285f4;  
+    text-align:center;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-top:10px;
+    width: 82%;
+    margin-bottom: 10px;
+    justify-content:center;
+    gap: 20px;
+  
+    a{
+        color:#ffffff;
+       padding-right: 38px;
+        
+    }
+    
+}
+
+
