@@ -134,7 +134,7 @@
 .box_second{
     display: flex;
  flex-wrap: wrap;
- overflow: hidden;
+ 
 
  .container2_first{
     display: flex;
@@ -218,6 +218,7 @@
 }
 
 .videoYT{
+    
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -227,8 +228,9 @@
 }
 
 .videobord{
-    border-bottom-right-radius:100%;
-    border-top-right-radius: 100%;   
+    
+    border-bottom-right-radius:50%;
+    border-top-right-radius: 50%;   
    
 }
 
@@ -281,3 +283,78 @@ a{
 }
 
 }
+
+.imgpoint{
+    display: flex;
+    margin-left: 90px;
+    margin-top:40px ;
+}
+
+.box_fourth{
+    overflow: hidden;
+background: #611f69;
+display: flex;
+flex-direction: column;
+align-content: stretch;
+align-items: stretch;
+border-bottom-left-radius: 70%;
+border-bottom-right-radius: 70%;
+overflow:hidden;
+
+
+
+h2{
+    justify-content: center;
+    color:#ffffff;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+}
+
+.button_ios{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background: #ffffff;
+    padding: 10px;
+    text-align:center;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 30px;
+    width: 300px;
+    border-color: #611f69;
+    border-style: solid;
+    margin-top: 5px;
+    border-width: 1px;
+    a{
+        color: #611f69;
+        
+    }
+  }
+
+  .button_ventas{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background: #611f69;
+    padding: 10px;
+    text-align:center;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    width: 300px;
+    border-color: #ffffff;
+    border-style: solid;
+    margin-top: 5px;
+    border-width: 1px;
+    a{
+        color: #ffffff;
+    }
+  }
